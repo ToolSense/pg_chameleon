@@ -8,7 +8,7 @@
         :target: https://github.com/the4thdoctor/pg_chameleon/stargazers
 	
 .. image:: https://img.shields.io/badge/license-BSD-blue.svg   
-        :target: https://raw.githubusercontent.com/the4thdoctor/pg_chameleon/master/LICENSE
+        :target: https://raw.githubusercontent.com/the4thdoctor/pg_chameleon/main/LICENSE.txt
 
 .. image:: https://img.shields.io/github/release/the4thdoctor/pg_chameleon
 		:target: https://github.com/the4thdoctor/pg_chameleon/releases
@@ -23,7 +23,7 @@ A pl/pgsql function decodes the jsonb values and replays the changes against the
     
 pg_chameleon  2.0 `is available on pypi <https://pypi.org/project/pg_chameleon/>`_  
 
-The documentation `is available on pgchameleon.org <http://www.pgchameleon.org/documents_v2/index.html>`_ 
+The documentation `is available on pgchameleon.org <http://www.pgchameleon.org/documents/index.html>`_
 
 Please submit your `bug reports on GitHub <https://github.com/the4thdoctor/pg_chameleon>`_.
 
@@ -74,7 +74,7 @@ Features
 ..............................
 
 * Read from multiple MySQL schemas and  restore them it into a target PostgreSQL  database. The source and target schema names can be different.
-* Setup PostgreSQL to act as a MySQL slave.
+* Setup PostgreSQL to act as a MySQL replica.
 * Support for enumerated and binary data types.
 * Basic DDL Support (CREATE/DROP/ALTER TABLE, DROP PRIMARY KEY/TRUNCATE, RENAME).
 * Discard of rubbish data coming from the replica. 
@@ -155,5 +155,5 @@ Inside the directory there are three subdirectories.
 * logs is where the replica logs are saved if log_dest is file. It can be changed in the configuration file
 
 You should  use config-example.yaml as template for the other configuration files. 
-Check the `configuration file reference <http://www.pgchameleon.org/documents_v2/configuration_file.html>`_   for an overview.
+Check the `configuration file reference <http://www.pgchameleon.org/documents/configuration_file.html>`_   for an overview.
 
